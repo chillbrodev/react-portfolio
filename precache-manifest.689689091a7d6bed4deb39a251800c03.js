@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/robot-rampage.49008917.png"
   },
   {
-    "revision": "f89a9c36104742c6440f",
+    "revision": "e407f64618dee0a3b109",
     "url": "/react-portfolio/static/css/main.890e081e.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/mine-blast.5e0fc88b.png"
   },
   {
-    "revision": "f89a9c36104742c6440f",
-    "url": "/react-portfolio/static/js/main.f89a9c36.chunk.js"
+    "revision": "e407f64618dee0a3b109",
+    "url": "/react-portfolio/static/js/main.e407f646.chunk.js"
   },
   {
     "revision": "8b296f3f9f6c3306827bc604b8c94c77",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/santa-cruzin.106c7e0d.png"
   },
   {
-    "revision": "e21ded8e735f0ee358dc2bd290d8b47f",
+    "revision": "c514ce39df4eb34d283f78c9d693c08f",
     "url": "/react-portfolio/index.html"
   }
 ];
