@@ -1,28 +1,50 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+import Header from './Header'
+import ProjectGallery from './ProjectGallery'
+import Profile from './Profile'
+import LINKS from './constants/Links'
 
 class App extends Component {
+  state = {
+    showProjectGallery: true,
+    showProfile: false
+  }
+
+  handleHomeClick = () => {
+    console.log('Home was clicked')
+    this.setState({
+      showProjectGallery: true,
+      showProfile: false
+    })
+  }
+
+  handleProfileClick = () => {
+    console.log('Profile was clicked')
+    this.setState({
+      showProjectGallery: false,
+      showProfile: true
+    })
+  }
+
+  handleResumeClick = () => {
+    console.log('Resume was clicked')
+    window.open(LINKS.RESUME, LINKS.TYPE)
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Header
+          handleHomeClick={this.handleHomeClick}
+          handleProfileClick={this.handleProfileClick}
+          handleResumeClick={this.handleResumeClick}
+        />
+        {this.state.showProjectGallery && <ProjectGallery />}
+        {this.state.showProfile && <Profile />}
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
