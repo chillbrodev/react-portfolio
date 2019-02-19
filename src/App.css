@@ -17,11 +17,13 @@
 }
 
 .project {
-  height: 50vh;
-  width: 50vmin;
-  background: #ffffff;
+  height: 35vh;
+  width: 40vmin;
+  /* background: #ffffff; */
   font-size: 1em;
   margin: 1%;
+
+  color: var(--main-text);
 }
 
 .project img {

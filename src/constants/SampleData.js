@@ -9,12 +9,27 @@ import salvage from '../images/projectGallery/salvage.gif'
 import mothersWrath from '../images/projectGallery/mothers-wrath.png'
 import shatteredCore from '../images/projectGallery/shattered-core.png'
 import santaCruzin from '../images/projectGallery/santa-cruzin.png'
+import troupeAi from '../images/projectGallery/troupe-ai.jpg'
+import iheartRadio from '../images/projectGallery/iheart-radio.jpg'
+import AAA from '../images/projectGallery/aaaLogo.png'
 
 const SampleData = {
   projects: [
     {
+      logo: iheartRadio,
+      title: 'iHeart Radio',
+      shortDescription:
+        "Overhauled iHeart Radio's OTT experiences for FireTV & AndroidTV. Both apps have a 4.0+ rating."
+    },
+    {
+      logo: troupeAi,
+      title: 'Troupe.ai',
+      shortDescription:
+        'Built the beta application for Troupe.ai which was used for conference attendees of TedX Toronto.'
+    },
+    {
       logo: rxJavaTalk,
-      title: 'RxJava 2: The Reactive Revolution',
+      title: 'RxJava 2',
       shortDescription:
         'Lunch & Learn presentation about the basics and effectiveness of the Rx paradim.'
     },
@@ -23,6 +38,12 @@ const SampleData = {
       title: 'Robot Rampage',
       shortDescription:
         'Defeat as many robots as possible within the time limit. Rise the ranks fo the leaderboard! Made in Unity.'
+    },
+    {
+      logo: AAA,
+      title: 'AAA Android',
+      shortDescription:
+        'Trained AAA engineers in Android in order to revamp and deploy major updates to their mobile application.'
     },
     {
       logo: mineShaft,
@@ -38,7 +59,7 @@ const SampleData = {
     },
     {
       logo: android,
-      title: 'Demystifying Android Testing',
+      title: 'Android Testing',
       shortDescription:
         'An introduction to testing Android using Mockito and common concepts.'
     },
