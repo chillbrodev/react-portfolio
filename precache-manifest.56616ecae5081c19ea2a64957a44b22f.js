@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "490089178a34f3ddfddea4f6e84a932c",
-    "url": "/react-portfolio/static/media/robot-rampage.49008917.png"
+    "revision": "8b296f3f9f6c3306827bc604b8c94c77",
+    "url": "/react-portfolio/static/media/custom-views.8b296f3f.png"
   },
   {
-    "revision": "3d45a4037410f31d042d",
-    "url": "/react-portfolio/static/css/main.890e081e.chunk.css"
+    "revision": "a8185011f9d6fdf22373",
+    "url": "/react-portfolio/static/css/main.9d2f6efe.chunk.css"
   },
   {
     "revision": "1e4ad457277730ac33c8",
     "url": "/react-portfolio/static/js/runtime~main.1e4ad457.js"
   },
   {
-    "revision": "295ce26121a01d2622b2",
-    "url": "/react-portfolio/static/js/2.295ce261.chunk.js"
+    "revision": "1e2049933314c3a9f7c0",
+    "url": "/react-portfolio/static/js/2.1e204993.chunk.js"
   },
   {
     "revision": "0fb5dc9ee00b1a1f7fdde7b5f11827dc",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/mine-blast.5e0fc88b.png"
   },
   {
-    "revision": "3d45a4037410f31d042d",
-    "url": "/react-portfolio/static/js/main.3d45a403.chunk.js"
+    "revision": "490089178a34f3ddfddea4f6e84a932c",
+    "url": "/react-portfolio/static/media/robot-rampage.49008917.png"
   },
   {
-    "revision": "8b296f3f9f6c3306827bc604b8c94c77",
-    "url": "/react-portfolio/static/media/custom-views.8b296f3f.png"
+    "revision": "a8185011f9d6fdf22373",
+    "url": "/react-portfolio/static/js/main.a8185011.chunk.js"
   },
   {
     "revision": "2663126b756613cac4c8b0a9526313a3",
@@ -60,7 +60,19 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/santa-cruzin.106c7e0d.png"
   },
   {
-    "revision": "2d041f267c96aa9d38b1992567abea95",
+    "revision": "712d061a5dee3f14c93489573e659c3e",
+    "url": "/react-portfolio/static/media/iheart-radio.712d061a.jpg"
+  },
+  {
+    "revision": "d3b1273c7d63ecd14f37da1d0377ea11",
+    "url": "/react-portfolio/static/media/aaaLogo.d3b1273c.png"
+  },
+  {
+    "revision": "c32867db6d443f49718920fc6c176fe3",
+    "url": "/react-portfolio/static/media/wonderland-img.c32867db.png"
+  },
+  {
+    "revision": "b134c7ed760631ba978653e793e98177",
     "url": "/react-portfolio/index.html"
   }
 ];
