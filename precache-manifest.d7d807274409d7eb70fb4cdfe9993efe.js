@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/custom-views.8b296f3f.png"
   },
   {
-    "revision": "a8185011f9d6fdf22373",
-    "url": "/react-portfolio/static/css/main.9d2f6efe.chunk.css"
+    "revision": "5c1e64759fd33033ba7b",
+    "url": "/react-portfolio/static/css/main.c5646f3a.chunk.css"
   },
   {
     "revision": "1e4ad457277730ac33c8",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/robot-rampage.49008917.png"
   },
   {
-    "revision": "a8185011f9d6fdf22373",
-    "url": "/react-portfolio/static/js/main.a8185011.chunk.js"
+    "revision": "5c1e64759fd33033ba7b",
+    "url": "/react-portfolio/static/js/main.5c1e6475.chunk.js"
   },
   {
     "revision": "2663126b756613cac4c8b0a9526313a3",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/wonderland-img.c32867db.png"
   },
   {
-    "revision": "b134c7ed760631ba978653e793e98177",
+    "revision": "2293e5661ae9ddfa8906416de0bb72da",
     "url": "/react-portfolio/index.html"
   }
 ];
