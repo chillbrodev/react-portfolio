@@ -17,8 +17,10 @@
 }
 
 .project {
-  height: 36vh;
-  width: 42vmin;
+  max-width: 36vh;
+  max-width: 40vmin;
+  height: auto;
+  width: auto;
   font-size: 1em;
   margin: 1%;
 
@@ -26,8 +28,10 @@
 }
 
 .project img {
-  height: 70%;
-  width: 95%;
+  height: auto;
+  width: auto;
+  max-width: 95%;
+  max-height: 70%;
   margin: 3%;
 }
 .header > div {
