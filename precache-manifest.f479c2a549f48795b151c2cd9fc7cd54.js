@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/militarium.3ac8ef2b.png"
   },
   {
-    "revision": "2d0c8bd4530bc5b89eae",
+    "revision": "0f6037d48887b034985d",
     "url": "/react-portfolio/static/css/main.88124a61.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/customViews.7a954f1c.png"
   },
   {
-    "revision": "2d0c8bd4530bc5b89eae",
-    "url": "/react-portfolio/static/js/main.2d0c8bd4.chunk.js"
+    "revision": "0f6037d48887b034985d",
+    "url": "/react-portfolio/static/js/main.0f6037d4.chunk.js"
   },
   {
     "revision": "5b3377aeb3b310039d54056ef20302e9",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/wonderland.8903f1a5.png"
   },
   {
-    "revision": "bc56e11570855a1853980c00f2fec09b",
+    "revision": "9742b8f73ff34c11ad5872956e4a9b8c",
     "url": "/react-portfolio/index.html"
   }
 ];
