@@ -1,7 +1,8 @@
 :root {
   --header-text-color: #ec7f37;
   --main-bg-color: #1d1e22;
-  --main-text: #ffffff;
+  --main-text-color: #ffffff;
+  --close-modal-color: #ffffff;
 }
 
 .header {
@@ -10,30 +11,22 @@
 }
 
 .gallery {
-  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .project {
-  max-width: 36vh;
-  max-width: 40vmin;
-  height: auto;
-  width: auto;
-  font-size: 1em;
-  margin: 1%;
-
-  color: var(--main-text);
+  display: flex;
+  flex-direction: column;
+  color: var(--main-text-color);
+  padding: 5%;
 }
 
-.project img {
-  height: auto;
-  width: auto;
-  max-width: 95%;
-  max-height: 70%;
-  margin: 3%;
+.project-title {
+  padding-bottom: 2%;
 }
+
 .header > div {
   padding: 10px;
   text-align: center;
@@ -48,5 +41,36 @@ body {
 }
 
 .profileText {
-  color: var(--main-text);
+  color: var(--main-text-color);
+}
+
+.project-modal {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--main-text-color);
+}
+
+.project-modal h3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal-close {
+  color: var(--close-modal-color);
+}
+
+.modal-icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+.closeIconColor {
+  color: var(--close-modal-color);
 }
