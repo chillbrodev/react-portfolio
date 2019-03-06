@@ -23,7 +23,7 @@ const SampleData = {
       tags: ['android', 'tv'],
       icons: [icons.Android, icons.Tv],
       shortDescription:
-        "Overhauled iHeart Radio's OTT experiences for FireTV & AndroidTV. Both apps have a 4.0+ rating."
+        "Utilized modern Android practices and Kotlin to overhaul the OTT experience for iHeartRadio. This project was built as a main codebase which used Android's Product Flavors to seperate FireTV & AndroidTV requirements. The team was able to deploy to both platforms with ease. Both apps have a 4.0+ rating on their respective store."
     },
     {
       logo: wonderland,
@@ -31,55 +31,7 @@ const SampleData = {
       tags: ['voice', 'game'],
       icons: [icons.Voice, icons.Game],
       shortDescription:
-        "An interactive voice game built for the Echo Show using Amazon's Alexa Presentation Language (APL). Can you help the white rabbit break free of the Queen's evil magic? "
-    },
-    {
-      logo: troupeAi,
-      title: 'Troupe.ai',
-      tags: ['android'],
-      icons: [icons.Android],
-      shortDescription:
-        'Beta application for Troupe.ai which was used for conference attendees of TedX Toronto.'
-    },
-    {
-      logo: rxJavaTalk,
-      title: 'RxJava 2: Reactive Revolution',
-      tags: ['talk', 'android'],
-      icons: [icons.Android, icons.Talk],
-      shortDescription:
-        'Lunch & Learn presentation about the basics and effectiveness of the Rx paradim.'
-    },
-    {
-      logo: robot,
-      title: 'Robot Rampage',
-      tags: ['game'],
-      icons: [icons.Game],
-      shortDescription:
-        'Defeat as many robots as possible within the time limit. Rise the ranks fo the leaderboard! Made in Unity.'
-    },
-    {
-      logo: AAA,
-      title: 'AAA Android',
-      tags: ['android'],
-      icons: [icons.Android],
-      shortDescription:
-        'Trained AAA engineers in Android in order to revamp and deploy major updates to their mobile application.'
-    },
-    {
-      logo: mineShaft,
-      title: 'Mineshaft Explosion',
-      tags: ['3D'],
-      icons: [icons.Art],
-      shortDescription:
-        'Wanna know what happens when a mineshaft blowsup? Watch and see! Made in Cinema4D.'
-    },
-    {
-      logo: planetExpress,
-      title: 'Planet Express',
-      tags: ['3D'],
-      icons: [icons.Art],
-      shortDescription:
-        'Good news everyone! Planet Express HQ is now available in Low Poly Format. Made in Cinema4D.'
+        "Developed using AWS Lambda, Node.JS and Alexa Presentation Language (APL). This is an interactive voice game built for the Echo Show. The project was built in two weeks and was submitted to the DevPost Hackathon. Can you help the white rabbit break free of the Queen's evil magic? "
     },
     {
       logo: android,
@@ -87,7 +39,55 @@ const SampleData = {
       tags: ['android', 'talk'],
       icons: [icons.Android, icons.Talk],
       shortDescription:
-        'An introduction to testing Android using Mockito and common concepts.'
+        'I gave a talk to the Orange County Android Meetup about writing unit tests. This talk broke down common terminology and showcased how to write tests using Java and Mockito.'
+    },
+    {
+      logo: robot,
+      title: 'Robot Rampage',
+      tags: ['game'],
+      icons: [icons.Game],
+      shortDescription:
+        "Robot Rampage started as a Unity tutorial from Ray Wenderlich's Unity Games by Tutorials book. Upon completetion of the tutorial I went ahead and fixed some bugs, added additional features and included a leaderboard. This gave the game a more polished feel and allowed players to compete against each other. The game can be described as a time based shooter where players must defeat as many robots as possible within the time limit."
+    },
+    {
+      logo: troupeAi,
+      title: 'Troupe.ai',
+      tags: ['android'],
+      icons: [icons.Android],
+      shortDescription:
+        'Troüpe is an AI platform that is creating meaningful people to people connections. I was taked with building the beta application in two short weeks. I used Kotlin, Retrofit2, RxJava, and Twilio to rapidly develop the application. Attendees of TedX Toronto utilized this application to converse and network during the conference.'
+    },
+    {
+      logo: rxJavaTalk,
+      title: 'RxJava 2: Reactive Revolution',
+      tags: ['talk', 'android'],
+      icons: [icons.Android, icons.Talk],
+      shortDescription:
+        'Reactive programming is a  paradim in which the application reacts to events triggered in your application via users or other systems. RxJava allows developers to create fully fledged reactive applications. I gave a Lunch and Learn about the basics of Rx* and showcased how to use Rx in Kotlin applications.'
+    },
+    {
+      logo: AAA,
+      title: 'AAA Android',
+      tags: ['android'],
+      icons: [icons.Android],
+      shortDescription:
+        'During a digital transformation engagement with AAA I was responsible for teaching Android and showcasing modern development practices. I also taught the engineers how to use modern libraries/frameworks such as MVP, RxJava2, Retrofit2 & Dagger2. We used Pair Programming and TDD to revamp their application and deploy major updates.'
+    },
+    {
+      logo: mineShaft,
+      title: 'Mineshaft Explosion',
+      tags: ['3D'],
+      icons: [icons.Art],
+      shortDescription:
+        'I utilized a tutorial from the folks at Greyscale Gorilla to create my very first motion graphic. This amazing tutorial showcases how to build a mineshaft explosion using dynamics, animations, texturing and modeling techniques.'
+    },
+    {
+      logo: planetExpress,
+      title: 'Planet Express',
+      tags: ['3D'],
+      icons: [icons.Art],
+      shortDescription:
+        'After creating my first motion graphic, I wanted to explore low poly modeling. My favorite show is Futurama and I decided to recreate the Planet Express HQ. This is my first 3D model made using various reference images.'
     },
     {
       logo: shatteredCore,
@@ -95,7 +95,7 @@ const SampleData = {
       tags: ['3D'],
       icons: [icons.Art],
       shortDescription:
-        'A mystical core rises from the ground controlling the warped water in this oasis. Made in Cinema4D.'
+        'I crafted a simplistic motion graphic using the low poly style. I created an oasis environment that showcases a mystical core that rises above the ground thus controlling the shattered water.'
     },
     {
       logo: custom,
@@ -103,7 +103,7 @@ const SampleData = {
       tags: ['talk', 'android'],
       icons: [icons.Android, icons.Talk],
       shortDescription:
-        "Discover how to use Custom Views as an alternative to Android's Fragments."
+        'My first talk at the Orange County Android Meetup focused on using custom views as an alternative to Fragments. I wanted to show others that is possible to create a fully fledged system using custom views instead of the standard of Fragments. I constructed this system while builing a custom multimedia application.'
     },
     {
       logo: militarium,
@@ -111,15 +111,7 @@ const SampleData = {
       tags: ['game'],
       icons: [icons.Game],
       shortDescription:
-        'GO inspired RTS made with a custom c++ engine and player achievement system.'
-    },
-    {
-      logo: mothersWrath,
-      title: "Mother's Wrath",
-      tags: ['game'],
-      icons: [icons.Game],
-      shortDescription:
-        'Play as Mother Earth who has risen to take back Earth from the clutches of humanity.'
+        'For my senior thesis, my team and I made history at UC Santa Cruz by being the first team to create a custom engine and a real time strategy game. We created Militarium which is heavily influnced by the ancient Chinese game Go. Militarium featured a player profile and achievement system. Militarium won the Peer choice award at the UCSC Sammy Awards.'
     },
     {
       logo: santaCruzin,
@@ -127,7 +119,15 @@ const SampleData = {
       tags: ['game'],
       icons: [icons.Game],
       shortDescription:
-        'Descend the mountains of Santa Cruz in this 3D Kinect for Windows game. Made C#/XNA.'
+        'Santa Cruzin 3D Kinect was built in two weeks with a team of four using C#/XNA. Santa Cruzin won peer choice award at the UCSC Sammy Awards. We utilized text files to describe the height maps of each level. These files were loaded and used to generate 3D terrain. The game features both single and multiplayer experiences.'
+    },
+    {
+      logo: mothersWrath,
+      title: "Mother's Wrath",
+      tags: ['game'],
+      icons: [icons.Game],
+      shortDescription:
+        "Mother's Wrath is a single player top down action game where you play as Mother Earth and are trying to take back the Earth from the evil clutches of humanity. Mother's Wrath was built in C#/XNA using advanced AI systems to provide squad style behavior for enemies and an engaging multiphase final boss fight. We built this game in about five weeks, creating all art, effects and sounds from scratch. This game is playable on Windows with an Xbox Gamepad."
     },
     {
       logo: salvage,
@@ -135,7 +135,7 @@ const SampleData = {
       tags: ['game'],
       icons: [icons.Game],
       shortDescription:
-        'Collect fuel cells and use space junk to defeat enemies. Made in GameMaker.'
+        'Salavage is a game where you must collect fuel cells and use space junk to defeat enemies. It was made in GameMaker in about five weeks. It was the first game I ever made. I focused on level design, UI and QA. Salavage placed first in the internal class competiton.'
     }
   ]
 }

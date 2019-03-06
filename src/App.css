@@ -71,6 +71,14 @@ body {
   padding-bottom: 2%;
 }
 
+.modal-desc {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .closeIconColor {
   color: var(--close-modal-color);
 }

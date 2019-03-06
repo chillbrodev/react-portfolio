@@ -46,7 +46,7 @@ class Project extends Component {
                 <i class={icon} />
               ))}
             </div>
-            <div className='project-desc'>{this.props.shortDescription}</div>
+            <div className='modal-desc'>{this.props.shortDescription}</div>
           </div>
         </ReactModal>
 
