@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/militarium.99324417.png"
   },
   {
-    "revision": "5bc02b434463f567cf60",
-    "url": "/react-portfolio/static/css/main.4721eb66.chunk.css"
+    "revision": "474c463fdeb6afac1abd",
+    "url": "/react-portfolio/static/css/main.db7e9db2.chunk.css"
   },
   {
     "revision": "1e4ad457277730ac33c8",
     "url": "/react-portfolio/static/js/runtime~main.1e4ad457.js"
   },
   {
-    "revision": "492132d4c6dc178b342f",
-    "url": "/react-portfolio/static/js/2.492132d4.chunk.js"
+    "revision": "0435a456c85a03dde2af",
+    "url": "/react-portfolio/static/js/2.0435a456.chunk.js"
   },
   {
     "revision": "2e798c90d9dab47a20b391d9e048de02",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/customViews.7a954f1c.png"
   },
   {
-    "revision": "5bc02b434463f567cf60",
-    "url": "/react-portfolio/static/js/main.5bc02b43.chunk.js"
+    "revision": "474c463fdeb6afac1abd",
+    "url": "/react-portfolio/static/js/main.474c463f.chunk.js"
   },
   {
     "revision": "5b3377aeb3b310039d54056ef20302e9",
@@ -76,7 +76,11 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/wonderland.5e4800aa.png"
   },
   {
-    "revision": "f5e072c932b43098ec000ed48c6a3705",
+    "revision": "dbd041f37a918cc82a0cbe8e0e0b4cab",
+    "url": "/react-portfolio/static/media/firetv_logo.dbd041f3.png"
+  },
+  {
+    "revision": "1a66648913c20db0560b35b72c6f7967",
     "url": "/react-portfolio/index.html"
   }
 ];
