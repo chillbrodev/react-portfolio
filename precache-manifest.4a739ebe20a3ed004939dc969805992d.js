@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/militarium.99324417.png"
   },
   {
-    "revision": "474c463fdeb6afac1abd",
-    "url": "/react-portfolio/static/css/main.db7e9db2.chunk.css"
+    "revision": "9c13efcb2324befc56d5",
+    "url": "/react-portfolio/static/css/main.82c08e2f.chunk.css"
   },
   {
     "revision": "1e4ad457277730ac33c8",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/customViews.7a954f1c.png"
   },
   {
-    "revision": "474c463fdeb6afac1abd",
-    "url": "/react-portfolio/static/js/main.474c463f.chunk.js"
+    "revision": "9c13efcb2324befc56d5",
+    "url": "/react-portfolio/static/js/main.9c13efcb.chunk.js"
   },
   {
     "revision": "5b3377aeb3b310039d54056ef20302e9",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/firetv_logo.dbd041f3.png"
   },
   {
-    "revision": "1a66648913c20db0560b35b72c6f7967",
+    "revision": "324e82328bf0c51d1a2a9dc469bde838",
     "url": "/react-portfolio/index.html"
   }
 ];
