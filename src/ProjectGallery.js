@@ -13,6 +13,8 @@ class ProjectGallery extends Component {
               logo={item.logo}
               shortDescription={item.shortDescription}
               icons={item.icons}
+              images={item.images}
+              available={item.available}
             />
           )
         })}

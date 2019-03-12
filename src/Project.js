@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import ReactModal from 'react-modal'
-import icons from './constants/Icons'
+import ProjectModal from './ProjectModal'
 
 class Project extends Component {
   constructor(props) {
@@ -25,31 +24,15 @@ class Project extends Component {
   render() {
     return (
       <div>
-        <ReactModal
-          style={{
-            overlay: {
-              backgroundColor: 'rgba(29, 30, 34, 0.75)'
-            },
-            content: {
-              border: '2px solid #ccc',
-              background: '#1d1e22'
-            }
-          }}
-          isOpen={this.state.showModal}
-          contentLabel='Minimal Modal Example'
-        >
-          <i class={icons.Close} onClick={this.handleCloseModal} />
-          <div className='project-modal'>
-            <h3>{this.props.title}</h3>
-            <div className='modal-icons'>
-              {this.props.icons.map(icon => (
-                <i class={icon} />
-              ))}
-            </div>
-            <div className='modal-desc'>{this.props.shortDescription}</div>
-          </div>
-        </ReactModal>
-
+        <ProjectModal
+          handleCloseModal={this.handleCloseModal}
+          title={this.props.title}
+          icons={this.props.icons}
+          shortDescription={this.props.shortDescription}
+          showModal={this.state.showModal}
+          images={this.props.images}
+          available={this.props.available}
+        />
         {!this.state.showModal && (
           <div className='project' onClick={this.handleOpenModal}>
             <div className='project-title'>{this.props.title}</div>
