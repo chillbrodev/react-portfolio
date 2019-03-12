@@ -5,14 +5,18 @@ class Profile extends Component {
     return (
       <div>
         <div className='profileText'>
-          Jon found his passion for programming while studying game development
-          at UC Santa Cruz. Currently Jon is seeking new opportunites in Android
-          and Serverless technologies. He previously worked at TribalScale
-          Orange County as an Agile Software Engineer, where he spent his time
-          building bleeding-edge applications for the biggest brands, teaching
-          Android, and exploring the latest trends in tech. Outside of work, he
-          enjoys cooking delicious meals, 3D modeling, hiking in the wilderness
-          and developing side projects.
+          I am a product developer who is passionate about building world class
+          applications for all types of industries. I have spent the last 5
+          years adventuring through the Android development space, first using
+          Java then diving headfirst into Kotlin. I have built mobile/voice
+          products using TDD, Java, Kotlin, MVP, MVVM & RxJava. I utilized these
+          tools during engagements with AAA, OEM Automakers, iHeartRadio and
+          other startups. On the side I am starting a new journey of Full Stack
+          Web Development with a focus in React/Node.JS. Outside of work I am an
+          avid home chef specializing in healthy vegetarian meals, a guitar
+          player, a lover of nature and most importantly a student. Let's
+          discuss how I can share my knowledge with your team to help level each
+          other up to new heights.
           <p>Email: jon@chillbrodev.com</p>
         </div>
       </div>
