@@ -30,7 +30,18 @@ class ProjectModal extends Component {
             </div>
             <div className='modal-desc'>
               {this.props.shortDescription}
-              <p />
+              {this.props.media.length != 0 && (
+                <div className='modal-media'>
+                  {this.props.media.map(mediaItem => {
+                    return (
+                      <a href={mediaItem.url} target={links.TYPE}>
+                        <h3>{mediaItem.info}</h3>
+                      </a>
+                    )
+                  })}
+                </div>
+              )}
+
               {this.props.available.length != 0 && (
                 <div>
                   <h3>Available for Download:</h3>

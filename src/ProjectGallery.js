@@ -15,6 +15,7 @@ class ProjectGallery extends Component {
               icons={item.icons}
               images={item.images}
               available={item.available}
+              media={item.media}
             />
           )
         })}

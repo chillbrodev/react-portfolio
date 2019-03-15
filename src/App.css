@@ -1,5 +1,6 @@
 :root {
   --header-text-color: #ec7f37;
+  --href-link-color: #ec7f37;
   --main-bg-color: #1d1e22;
   --main-text-color: #ffffff;
   --close-modal-color: #ffffff;
@@ -86,8 +87,16 @@ body {
   flex-direction: row;
 }
 
-.modal-dl a {
-  padding-left: 2%;
+.modal-media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2%;
+}
+
+.modal-media a {
+  color: var(--href-link-color);
 }
 
 .closeIconColor {

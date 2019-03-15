@@ -32,6 +32,7 @@ class Project extends Component {
           showModal={this.state.showModal}
           images={this.props.images}
           available={this.props.available}
+          media={this.props.media}
         />
         {!this.state.showModal && (
           <div className='project' onClick={this.handleOpenModal}>
