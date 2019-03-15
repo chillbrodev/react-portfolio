@@ -42,7 +42,18 @@ body {
 }
 
 .profileText {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
   color: var(--main-text-color);
+}
+
+.profile-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .project-modal {

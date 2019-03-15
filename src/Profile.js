@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import profile from './images/profile/profile.jpg'
 
 class Profile extends Component {
   render() {
@@ -17,7 +18,14 @@ class Profile extends Component {
           player, a lover of nature and most importantly a student. Let's
           discuss how I can share my knowledge with your team to help level each
           other up to new heights.
-          <p>Email: jon@chillbrodev.com</p>
+          <div className='profile-info'>
+            <p />
+            Email: jon@chillbrodev.com
+            <p />
+            <div>
+              <img src={profile} alt='profile' />
+            </div>
+          </div>
         </div>
       </div>
     )
