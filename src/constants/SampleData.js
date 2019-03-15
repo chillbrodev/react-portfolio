@@ -13,6 +13,8 @@ import troupeAi from '../images/projectGallery/troupe.png'
 import iheartRadio from '../images/projectGallery/iHeartRadio.png'
 import AAA from '../images/projectGallery/aaaLogo.png'
 import wonderland from '../images/projectGallery/wonderland.png'
+import commandCenter from '../images/projectGallery/commandCenter.png'
+import thaiger from '../images/projectGallery/thaiger.png'
 import fireTV from '../images/logos/firetv_logo.png'
 import playStore from '../images/logos/google_play.png'
 import alexa from '../images/logos/alexa_logo.png'
@@ -41,7 +43,7 @@ const SampleData = {
       images: [],
       media: [],
       shortDescription:
-        "Utilized modern Android practices and Kotlin to overhaul the OTT experience for iHeartRadio. This project was built as a main codebase which used Android's Product Flavors to seperate FireTV & AndroidTV requirements. The team was able to deploy to both platforms with ease. Both apps have a 3.5+ rating on their respective store."
+        "Utilized modern Android practices and Kotlin to overhaul the OTT experience for iHeartRadio. This project was built as a main codebase which used Android's Product Flavors to separate FireTV & AndroidTV requirements. The team was able to deploy to both platforms with ease. Both apps have a 3.5+ rating on their respective store."
     },
     {
       logo: wonderland,
@@ -58,7 +60,7 @@ const SampleData = {
       images: [],
       media: [
         {
-          info: 'View Trailer',
+          info: 'View Video',
           url: 'https://www.youtube.com/watch?v=nNFcU_BRme0'
         },
         {
@@ -106,7 +108,7 @@ const SampleData = {
         }
       ],
       shortDescription:
-        "Robot Rampage started as a Unity tutorial from Ray Wenderlich's Unity Games by Tutorials book. Upon completetion of the tutorial I went ahead and fixed some bugs, added additional features and included a leaderboard. This gave the game a more polished feel and allowed players to compete against each other. The game can be described as a time based shooter where players must defeat as many robots as possible within the time limit."
+        "Robot Rampage started as a Unity tutorial from Ray Wenderlich's Unity Games by Tutorials book. Upon completion of the tutorial I went ahead and fixed some bugs, added additional features and included a leader-board. This gave the game a more polished feel and allowed players to compete against each other. The game can be described as a time based shooter where players must defeat as many robots as possible within the time limit."
     },
     {
       logo: troupeAi,
@@ -123,7 +125,7 @@ const SampleData = {
       images: [],
       media: [],
       shortDescription:
-        'Troüpe is an AI platform that is creating meaningful people to people connections. I was taked with building the beta application in two short weeks. I used Kotlin, Retrofit2, RxJava, and Twilio to rapidly develop the application. Attendees of TedX Toronto utilized this application to converse and network during the conference.'
+        'Troüpe is an AI platform that is creating meaningful people to people connections. I was tasked with building the beta application in two short weeks. I used Kotlin, Retrofit2, RxJava, and Twilio to rapidly develop the application. Attendees of TedX Toronto utilized this application to converse and network during the conference.'
     },
     {
       logo: rxJavaTalk,
@@ -139,7 +141,44 @@ const SampleData = {
       images: [],
       media: [],
       shortDescription:
-        'Reactive programming is a  paradim in which the application reacts to events triggered in your application via users or other systems. RxJava allows developers to create fully fledged reactive applications. I gave a Lunch and Learn about the basics of Rx* and showcased how to use Rx in Kotlin applications.'
+        'Reactive programming is a paradigm in which the application reacts to events triggered in your application via users or other systems. RxJava allows developers to create fully fledged reactive applications. I gave a Lunch and Learn about the basics of Rx* and showcased how to use Rx in Kotlin applications.'
+    },
+    {
+      logo: mineShaft,
+      title: 'Mineshaft Explosion',
+      tags: ['3D'],
+      icons: [icons.Art],
+      available: [],
+      images: [],
+      media: [
+        {
+          info: 'View Video',
+          url: 'https://vimeo.com/260682314'
+        },
+        {
+          info: 'View Still',
+          url: 'https://storage.googleapis.com/three-d-renders/mineshaft.png'
+        }
+      ],
+      shortDescription:
+        'I utilized a tutorial from the folks at Greyscale Gorilla to create my very first motion graphic. This amazing tutorial showcases how to build a mineshaft explosion using dynamics, animations, texturing and modeling techniques.'
+    },
+    {
+      logo: commandCenter,
+      title: 'Isometric Command Center',
+      tags: ['3D'],
+      icons: [icons.Art],
+      available: [],
+      images: [],
+      media: [
+        {
+          info: 'View Still',
+          url:
+            'https://storage.googleapis.com/three-d-renders/CommandCenterIso.png'
+        }
+      ],
+      shortDescription:
+        "While viewing art on Instagram one week, I noticed an increase in isometric rooms. I thought these were a pretty cool medium to showcase art. I noticed there was nothing related to Power Rangers and thought what a cool opportunity. I spent a weekend over Christmas break creating Zordon's Command Center as an isometric room."
     },
     {
       logo: AAA,
@@ -159,31 +198,41 @@ const SampleData = {
         'During a digital transformation engagement with AAA I was responsible for teaching Android and showcasing modern development practices. I also taught the engineers how to use modern libraries/frameworks such as MVP, RxJava2, Retrofit2 & Dagger2. We used Pair Programming and TDD to revamp their application and deploy major updates.'
     },
     {
-      logo: mineShaft,
-      title: 'Mineshaft Explosion',
-      tags: ['3D'],
-      icons: [icons.Art],
-      available: [],
-      images: [],
-      media: [
-        {
-          info: 'View Trailer',
-          url: 'https://vimeo.com/260682314'
-        }
-      ],
-      shortDescription:
-        'I utilized a tutorial from the folks at Greyscale Gorilla to create my very first motion graphic. This amazing tutorial showcases how to build a mineshaft explosion using dynamics, animations, texturing and modeling techniques.'
-    },
-    {
       logo: planetExpress,
       title: 'Planet Express',
       tags: ['3D'],
       icons: [icons.Art],
       available: [],
       images: [],
-      media: [],
+      media: [
+        {
+          info: 'View Still',
+          url:
+            'https://storage.googleapis.com/three-d-renders/PlanetExpress.png'
+        }
+      ],
       shortDescription:
         'After creating my first motion graphic, I wanted to explore low poly modeling. My favorite show is Futurama and I decided to recreate the Planet Express HQ. This is my first 3D model made using various reference images.'
+    },
+    {
+      logo: thaiger,
+      title: 'Thaiger',
+      tags: ['3D'],
+      icons: [icons.Art],
+      available: [],
+      images: [],
+      media: [
+        {
+          info: 'View Video',
+          url: 'https://vimeo.com/324383858'
+        },
+        {
+          info: 'View Still',
+          url: 'https://storage.googleapis.com/three-d-renders/Thaiger.png'
+        }
+      ],
+      shortDescription:
+        'While visiting Toronto for work, I was out with some friends and saw some artwork in the Thai restaurant. I was stunned with its beauty and complexities, I also thought it would be a cool 3D model. I spent the next few nights meticulously tracing each piece of the photo and assembling a color palette.'
     },
     {
       logo: shatteredCore,
@@ -194,8 +243,12 @@ const SampleData = {
       images: [],
       media: [
         {
-          info: 'View Trailer',
+          info: 'View Video',
           url: 'https://vimeo.com/260682185'
+        },
+        {
+          info: 'View Still',
+          url: 'https://storage.googleapis.com/three-d-renders/DesertStill.png'
         }
       ],
       shortDescription:
@@ -215,7 +268,7 @@ const SampleData = {
       images: [],
       media: [],
       shortDescription:
-        'My first talk at the Orange County Android Meetup focused on using custom views as an alternative to Fragments. I wanted to show others that is possible to create a fully fledged system using custom views instead of the standard of Fragments. I constructed this system while builing a custom multimedia application.'
+        'My first talk at the Orange County Android Meetup focused on using custom views as an alternative to Fragments. I wanted to show others that is possible to create a fully fledged system using custom views instead of the standard of Fragments. I constructed this system while building a custom multimedia application.'
     },
     {
       logo: militarium,
@@ -226,12 +279,12 @@ const SampleData = {
       images: [],
       media: [
         {
-          info: 'View Trailer',
+          info: 'View Video',
           url: 'https://www.youtube.com/watch?v=ayMZVQtI77w'
         }
       ],
       shortDescription:
-        'For my senior thesis, my team and I made history at UC Santa Cruz by being the first team to create a custom engine and a real time strategy game. We created Militarium which is heavily influnced by the ancient Chinese game Go. Militarium featured a player profile and achievement system. Militarium won the Peer choice award at the UCSC Sammy Awards.'
+        'For my senior thesis, my team and I made history at UC Santa Cruz by being the first team to create a custom engine and a real time strategy game. We created Militarium which is heavily influenced by the ancient Chinese game Go. Militarium featured a player profile and achievement system. Militarium won the Peer choice award at the UCSC Sammy Awards.'
     },
     {
       logo: santaCruzin,
@@ -242,7 +295,7 @@ const SampleData = {
       images: [],
       media: [
         {
-          info: 'View Trailer',
+          info: 'View Video',
           url: 'https://youtu.be/HFwOxZvS9BI'
         }
       ],
@@ -263,12 +316,12 @@ const SampleData = {
       images: [],
       media: [
         {
-          info: 'View Trailer',
+          info: 'View Video',
           url: 'https://youtu.be/ahTm76QSFvs'
         }
       ],
       shortDescription:
-        "Mother's Wrath is a single player top down action game where you play as Mother Earth and are trying to take back the Earth from the evil clutches of humanity. Mother's Wrath was built in C#/XNA using advanced AI systems to provide squad style behavior for enemies and an engaging multiphase final boss fight. We built this game in about five weeks, creating all art, effects and sounds from scratch. This game is playable on Windows with an Xbox Gamepad."
+        "Mother's Wrath is a single player top down action game where you play as Mother Earth and are trying to take back the Earth from the evil clutches of humanity. Mother's Wrath was built in C#/XNA using advanced AI systems to provide squad style behavior for enemies and an engaging multi-phase final boss fight. We built this game in about five weeks, creating all art, effects and sounds from scratch. This game is playable on Windows with an XBox Gamepad."
     },
     {
       logo: salvage,
@@ -284,12 +337,12 @@ const SampleData = {
       images: [],
       media: [
         {
-          info: 'View Trailer',
+          info: 'View Video',
           url: 'https://youtu.be/KTw_a1B9xAY'
         }
       ],
       shortDescription:
-        'Salavage is a game where you must collect fuel cells and use space junk to defeat enemies. It was made in GameMaker in about five weeks. It was the first game I ever made. I focused on level design, UI and QA. Salavage placed first in the internal class competiton. This game is playable on Windows or using an exe emulator.'
+        'Salvage is a game where you must collect fuel cells and use space junk to defeat enemies. It was made in GameMaker in about five weeks. It was the first game I ever made. I focused on level design, UI and QA. Salvage placed first in the internal class competition. This game is playable on Windows or using an exe emulator.'
     }
   ]
 }
