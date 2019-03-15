@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "5b3377aeb3b310039d54056ef20302e9",
-    "url": "/react-portfolio/static/media/salvage.5b3377ae.png"
+    "revision": "af6f6282e4e44c142bbc21b47c3b0d75",
+    "url": "/react-portfolio/static/media/mothersWrath.af6f6282.png"
   },
   {
-    "revision": "3631f37a494c6ba56af9",
+    "revision": "cc788ab3215e210708c2",
     "url": "/react-portfolio/static/css/main.aadd5f19.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/js/runtime~main.1e4ad457.js"
   },
   {
-    "revision": "4354e90e4fb03351fbf2",
-    "url": "/react-portfolio/static/js/2.4354e90e.chunk.js"
+    "revision": "4334e926c428eea6bb20",
+    "url": "/react-portfolio/static/js/2.4334e926.chunk.js"
   },
   {
     "revision": "2e798c90d9dab47a20b391d9e048de02",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/militarium.99324417.png"
   },
   {
-    "revision": "3631f37a494c6ba56af9",
-    "url": "/react-portfolio/static/js/main.3631f37a.chunk.js"
+    "revision": "5b3377aeb3b310039d54056ef20302e9",
+    "url": "/react-portfolio/static/media/salvage.5b3377ae.png"
   },
   {
-    "revision": "af6f6282e4e44c142bbc21b47c3b0d75",
-    "url": "/react-portfolio/static/media/mothersWrath.af6f6282.png"
+    "revision": "cc788ab3215e210708c2",
+    "url": "/react-portfolio/static/js/main.cc788ab3.chunk.js"
   },
   {
     "revision": "16f4726dc19562b53a9762eae56fd3ec",
@@ -76,6 +76,14 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/wonderland.5e4800aa.png"
   },
   {
+    "revision": "df956e86e24b7f3af59b2760f318622e",
+    "url": "/react-portfolio/static/media/commandCenter.df956e86.png"
+  },
+  {
+    "revision": "3951ab1b29a89a2553f32a89fe3ccd8e",
+    "url": "/react-portfolio/static/media/thaiger.3951ab1b.png"
+  },
+  {
     "revision": "dbd041f37a918cc82a0cbe8e0e0b4cab",
     "url": "/react-portfolio/static/media/firetv_logo.dbd041f3.png"
   },
@@ -84,7 +92,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/profile.e89ca3e6.jpg"
   },
   {
-    "revision": "8d06917b602d2007bece2dec7a0ad9e6",
+    "revision": "b338ca0dabe70c41b2a83b6a5f34640a",
     "url": "/react-portfolio/index.html"
   }
 ];
